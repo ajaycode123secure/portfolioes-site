@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPortfolio | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="logo">DEV<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-container" data-tilt>
+                <img src="nitish.js.jpeg" alt="Profile" class="profile-img">
+            </div>
+            <h1>Hi, I'm <span class="gradient-text">Ajay kumar yadav</span></h1>
+            <h2>I am a <span class="typing-text"></span></h2>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">View Work</a>
+                <a href="#" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Frontend Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <span>HTML</span>
+                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+             <div class="skill-card">
+                <span>CSS</span>
+                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>React</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Next.js</span>
+                <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>TypeScript</span>
+                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Tailwind</span>
+                <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+            </div>
+            
+        </div>
+    </section>
+     <section id="backend" class="skills">
+        <h2 class="section-title">Backend Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <span>Node.js</span>
+                <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Express.js</span>
+                <div class="progress-bar"><div class="progress" style="width: 86%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>PostgreSQL</span>
+                <div class="progress-bar"><div class="progress" style="width: 82%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Drizzle</span>
+                <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <span>Redis</span>
+                <div class="progress-bar"><div class="progress" style="width: 79%"></div></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-container">
+            <div class="project-card" data-tilt>
+                <div class="card-content">
+                    <p class="project-badge">Flagship</p>
+                    <h3>AI Analytics Dashboard</h3>
+                    <p>A high-performance dashboard with real-time metrics, role-based access, and interactive data visualizations for decision-making teams.</p>
+                    <div class="project-stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>PostgreSQL</span>
+                        <span>Chart.js</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="project-link ghost">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                <div class="card-content">
+                    <p class="project-badge">Production</p>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A modern commerce app featuring secure checkout, order tracking, coupon logic, and scalable product management workflows.</p>
+                    <div class="project-stack">
+                        <span>Next.js</span>
+                        <span>Tailwind</span>
+                        <span>Stripe</span>
+                        <span>Redis</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="project-link ghost">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                <div class="card-content">
+                    <p class="project-badge">Realtime</p>
+                    <h3>Collab Chat Workspace</h3>
+                    <p>A real-time collaboration platform with live chat, typing indicators, task channels, and reliable socket-driven event delivery.</p>
+                    <div class="project-stack">
+                        <span>Socket.io</span>
+                        <span>Express</span>
+                        <span>Drizzle</span>
+                        <span>Redis</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="#" class="project-link">Live Demo <i class="fas fa-arrow-up-right-from-square"></i></a>
+                        <a href="#" class="project-link ghost">GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-wrapper">
+            <div class="contact-intro">
+                <p class="contact-badge">Let's Build Something Great</p>
+                <h3>Have a project idea?</h3>
+                <p>I’m open to freelance work, collaborations, and exciting full-stack opportunities. Drop your details and I’ll get back to you quickly.</p>
+                <ul class="contact-points">
+                    <li><i class="fas fa-bolt"></i> Fast response & clear communication</li>
+                    <li><i class="fas fa-code"></i> Frontend + backend implementation</li>
+                    <li><i class="fas fa-rocket"></i> Production-ready delivery mindset</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form" novalidate>
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" placeholder="Your full name" class="glass-input">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="you@example.com" class="glass-input">
+                </div>
+                <div class="input-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" placeholder="Tell me about your project..." class="glass-input"></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
